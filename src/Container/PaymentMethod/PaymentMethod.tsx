@@ -179,7 +179,6 @@ const PaymentMethod = () => {
                             <p><MdOutlinePeople /> 1 Adult</p>
                         </div>
                         <hr />
-
                         <div>
                             <Container>
                                 <p>Payment</p>
@@ -203,7 +202,6 @@ const PaymentMethod = () => {
                                     <p>Total</p>
                                     <p>$326.90</p>
                                 </div>
-
                             </Container>
                         </div>
                     </Col>
@@ -212,5 +210,4 @@ const PaymentMethod = () => {
         </React.Fragment>
     );
 };
-
 export default PaymentMethod;
