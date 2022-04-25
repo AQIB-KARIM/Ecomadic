@@ -1,11 +1,12 @@
 import React from 'react';
-import {BigCalendar} from "./Container/Calender/Calender";
-import CreateReservation from "./Container/CreateReservation/CreateReservation";
-import PaymentMethod from "./Container/PaymentMethod/PaymentMethod";
-import ReservationPage from "./Container/ReservationPage/ReservationPage";
 import Home from "./Container/Home/Home";
 import Header from "./Components/Header/Header";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Listing from './Container/Listing/Listing';
+import Footer from './Components/Footer/Footer';
+import Message from './Container/Messages/Message';
+import Pricing from './Container/Pricing/Pricing'
+
 
 function App() {
   return (
@@ -13,11 +14,11 @@ function App() {
             <Header />
             <Routes>
                 <Route path={'/'}  element={<Home />} />
-                <Route path={'/reservation'}  element={<BigCalendar />} />
-                <Route path={'/create-reservation'} element={<CreateReservation />} />
-                <Route path={'/payment'} element={<PaymentMethod />} />
-                <Route path={'/reservation-page'} element={<ReservationPage />} />
+                <Route path={'/listing'}  element={<Listing />} />
+                <Route path={'/messages'}  element={<Message />} />
+                <Route path={'/pricing'}  element={<Pricing />} />
             </Routes>
+            {/* <Footer/> */}
         </Router>
   );
 }

@@ -1,0 +1,35 @@
+.select_input {
+    bottom: 5px !important;
+    border-radius: 30px !important;
+}
+
+.filter_select_container {
+    display: flex;
+}
+
+.chakra-select__icon-wrapper {
+    top: 16px !important;
+}
+
+.total_results {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.total {
+    color: grey;
+    font-size: 13px;
+}
+
+.amenities {
+    padding: 10px;
+    width: 100%;
+}
+
+.css-k8ygr1 span {
+    position: absolute;
+    font-size: 20px;
+    right: 5px;
+    top:5px
+}

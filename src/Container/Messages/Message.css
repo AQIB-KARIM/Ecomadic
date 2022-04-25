@@ -1,0 +1,56 @@
+.css-ujma4c {
+    grid-gap: 0px !important;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+.incoming_msg {
+    padding: 0px 10px;
+    height: 50px;
+    display: flex;
+}
+
+.incoming_msg img {
+    margin: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.css-640u4w {
+    height: auto !important;
+}
+
+.css-qh2ffj {
+    padding: 0px  !important;
+}
+
+.response_time{
+    padding: 0px 20px;
+}
+
+.Aminities{
+    margin-bottom: 10px !important;
+}
+
+.Aminities ul {
+    padding: 10px;
+}
+
+.Aminities h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.Faqs p{
+    padding: 2px !important;
+}
+
+.Faqs > span{
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.Faqs h2{
+    font-weight: 600;
+    font-size: 18px;
+}
